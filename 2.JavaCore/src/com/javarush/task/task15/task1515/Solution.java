@@ -12,6 +12,20 @@ public class Solution {
     public static int A;
     public static int B;
 
+    static {
+        try {
+            BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+            String sA = reader.readLine();
+            A = Integer.parseInt(sA);
+            String sB = reader.readLine();
+            B = Integer.parseInt(sB);
+            reader.close();
+        }
+        catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
     public static final int MIN = min(A, B);
 
     public static void main(String[] args) {

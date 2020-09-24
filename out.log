@@ -6440,3 +6440,22 @@ java.lang.NullPointerException
 2020-09-24 14:31:37 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
 2020-09-24 14:31:39 INFO  ApacheHttpClient.completed(28) - responseCode = 200
 2020-09-24 14:31:40 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-24 15:44:15 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-09-24 15:45:05 INFO  ApacheHttpClient.getWebResourceAsStream(494) - responseCode = 200
+2020-09-24 15:45:08 INFO  PluginTasksProjectComponent.projectClosing(197) - ---------- Project closed ----------
+
+2020-09-24 15:45:09 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-24 15:45:09 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-24 15:45:09 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-24 15:45:10 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-24 15:45:10 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-24 15:49:18 INFO  ProjectStartupHandler.runActivity(73) - ---------- Project opened ----------
+2020-09-24 15:49:18 INFO  ProjectStartupHandler.runActivity(74) - ---------- Version 3.43 ----------
+
+2020-09-24 15:49:18 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-24 15:49:19 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-24 15:49:19 INFO  ApacheHttpClient.refreshUserInfo(302) - responseCode = 200
+2020-09-24 15:49:19 INFO  ApacheHttpClient.refreshUserInfo(308) - User information received.
+2020-09-24 15:49:56 ERROR GAService.getProxyLoginFromHttpConfigurable(384) - Error while getting the proxy login from HttpConfigurable.
+2020-09-24 15:49:56 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-09-24 15:49:56 INFO  AbstractRestApiClient.startService(71) - EventsService started.

@@ -1,18 +1,18 @@
-package com.javarush.task.task12.task1206;
+//package com.javarush.task.task12.task1206;
 
 /* 
 Выполняем перегрузку!
 */
 
-public class Solution {
-    public static void main(String[] args) {
+//public class Solution {
+//    public static void main(String[] args) {
 
-    }
+//    }
 
     //Напишите тут ваши методы
-    public print(String i) {
-    }
-
-    public print(int i) {
-    }
-}
+//    public print(String i) {
+//    }
+//
+//    public print(int i) {
+//    }
+//}

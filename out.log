@@ -6578,3 +6578,28 @@ java.lang.NullPointerException
 2020-09-28 11:49:45 INFO  ApacheHttpClient.completed(28) - responseCode = 200
 2020-09-28 11:50:11 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
 2020-09-28 11:51:11 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-28 11:51:53 INFO  ProjectStartupHandler.projectClosing(154) - ---------- Project closed ----------
+
+2020-09-28 11:51:53 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 11:51:53 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 11:51:54 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.
+2020-09-28 11:55:48 INFO  ProjectStartupHandler.runActivity(73) - ---------- Project opened ----------
+2020-09-28 11:55:48 INFO  ProjectStartupHandler.runActivity(74) - ---------- Version 3.43 ----------
+
+2020-09-28 11:55:49 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-28 11:55:49 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-28 11:55:49 INFO  ApacheHttpClient.isSessionAppropriateWithSecretKey(594) - Waiting for server response.
+2020-09-28 11:55:49 INFO  ApacheHttpClient.refreshUserInfo(302) - responseCode = 200
+2020-09-28 11:55:49 INFO  ApacheHttpClient.refreshUserInfo(308) - User information received.
+2020-09-28 11:56:21 ERROR GAService.getProxyLoginFromHttpConfigurable(384) - Error while getting the proxy login from HttpConfigurable.
+2020-09-28 11:56:21 INFO  ApacheHttpClient.startGA(35) - GAService started.
+2020-09-28 11:56:21 INFO  AbstractRestApiClient.startService(71) - EventsService started.
+2020-09-28 11:57:22 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-28 11:58:22 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-28 11:59:22 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-28 12:00:22 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-28 12:01:22 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-28 12:02:22 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-28 12:03:22 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-28 12:04:22 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-28 12:05:22 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200

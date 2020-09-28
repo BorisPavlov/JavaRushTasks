@@ -15,6 +15,7 @@ public class Solution {
             Thread.sleep(200);
         } catch (InterruptedException e) {
         }
+        System.out.println("котенок гуляет");
     }
 
     public static class Cat extends Thread {

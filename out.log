@@ -7227,3 +7227,21 @@ java.lang.NullPointerException
 2020-09-28 17:52:26 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
 2020-09-28 17:53:26 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
 2020-09-28 17:54:26 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-28 17:55:26 INFO  ApacheHttpClient.sendEvent(527) - responseCode = 200
+2020-09-28 17:55:45 INFO  ProjectStartupHandler.projectClosing(154) - ---------- Project closed ----------
+
+2020-09-28 17:55:45 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 17:55:46 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 17:55:46 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 17:55:47 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 17:55:47 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 17:55:47 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 17:55:48 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 17:55:48 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 17:55:48 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 17:55:49 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 17:55:49 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 17:55:50 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 17:55:50 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 17:55:50 INFO  ApacheHttpClient.getTask(480) - responseCode = 200
+2020-09-28 17:55:51 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.

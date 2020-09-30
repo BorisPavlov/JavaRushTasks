@@ -37,6 +37,7 @@ public class Solution {
         ReadFileInterface f = new ReadFileThread();
         f.setFileName(fileName);
         f.start();
+        f.join();
         //add your code here - добавьте код тут
         System.out.println(f.getFileContent());
     }
@@ -56,25 +57,26 @@ public class Solution {
     public static class ReadFileThread extends Thread implements ReadFileInterface  {
         private String fullFileName;
         private String fileContent="";
+        String str = "";
 
         public void setFileName(String fullFileName) {
             this.fullFileName = fullFileName;
         }
+
         public String getFileContent() {
-            String str = "";
+            return str;
+        }
+        public void run() {
             try {
-                BufferedReader fileReader = new BufferedReader(new FileReader(fullFileName));
+                BufferedReader fileReader = new BufferedReader(new FileReader(this.fullFileName));
                 while (fileReader.ready()) {
-                    str = str + fileReader.readLine();
+                    str = str + fileReader.readLine() + " ";
                 }
+                fileReader.close();
             }
             catch (IOException e) {
                 e.printStackTrace();
             }
-            return str;
-        }
-        String run() {
-            return getFileContent();
         }
     }
 }

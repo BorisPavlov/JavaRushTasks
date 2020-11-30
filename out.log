@@ -11592,3 +11592,5 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 2020-11-30 17:01:41 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2020-11-30 17:02:41 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2020-11-30 17:03:41 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-30 17:04:41 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-30 17:05:41 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200

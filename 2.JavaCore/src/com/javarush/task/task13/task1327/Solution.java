@@ -1,12 +1,12 @@
-//package com.javarush.task.task13.task1327;
+package com.javarush.task.task13.task1327;
 
-//import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 
 /* 
 Репка
 */
-/*
+
 public class Solution {
     public static void main(String[] args) {
         List<Person> plot = new ArrayList<Person>();
@@ -17,4 +17,3 @@ public class Solution {
         RepkaStory.tell(plot);
     }
 }
-*/

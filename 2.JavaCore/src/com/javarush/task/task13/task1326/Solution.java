@@ -3,17 +3,16 @@ import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Comparator;
+import java.util.*;
 
 public class Solution {
     public static void main(String[] args) throws IOException {
         //вводим имя файла
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        String fileName = reader.readLine();
-        String fullFileName = "c:\\" + fileName + ".txt";
-        //формируем поток
-        FileInputStream fileInputStream = new FileInputStream(fullFileName);
+
+        FileInputStream fileInputStream = new FileInputStream(reader.readLine());
+        Scanner scanner = new Scanner(fileInputStream);
+
         // формируем ArrayList для хранения отсортированных чисел
         ArrayList<Integer> list = new ArrayList<Integer>();
         //строка для парсинга (далее будет ясно зачем)
@@ -28,7 +27,7 @@ public class Solution {
 
         list.sort(Comparator.naturalOrder());   // отсортировали по возрастанию
         for (int i = 0; i < list.size(); i++) {
-            if (list.get(i) % 2 == 0) System.out.println(list.get(i));
+            System.out.println(list.get(i));
         }
     }
 }

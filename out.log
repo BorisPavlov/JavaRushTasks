@@ -10753,3 +10753,12 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:141)
 	... 13 more
 2020-11-05 23:06:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-05 23:07:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-11-05 23:07:29 INFO  ProjectStartupHandler.projectClosing(155) - ---------- Project closed ----------
+
+2020-11-05 23:07:29 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-05 23:07:30 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-05 23:07:30 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-05 23:07:30 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-05 23:07:30 INFO  ApacheHttpClient.getTask(488) - responseCode = 200
+2020-11-05 23:07:31 INFO  PluginProjectService.dispose(41) - PluginProjectService for disposed.

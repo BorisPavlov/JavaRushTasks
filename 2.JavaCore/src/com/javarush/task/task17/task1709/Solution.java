@@ -39,7 +39,7 @@ public class Solution {
             while (thisProposal < 10) {
                 if (thisProposal != proposal) {
                     System.out.println("Принято предложение №" + proposal);
-                    thisProposal = proposal; //test
+                    thisProposal = proposal; //test2
                 }
 
             }

@@ -11841,3 +11841,6 @@ Caused by: java.net.ConnectException: Connection timed out: connect
 2020-12-13 14:35:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2020-12-13 14:36:22 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
 2020-12-13 14:36:23 INFO  ApacheHttpClient.sendEvent(535) - responseCode = 200
+2020-12-13 16:06:24 INFO  ProjectStartupHandler.runActivity(74) - ---------- Project opened ----------
+2020-12-13 16:06:24 INFO  ProjectStartupHandler.runActivity(75) - ---------- Version 3.44 ----------
+

@@ -5,14 +5,7 @@ target/
 .idea/
 .idea
 .repository/
-*.iml
-*.iws
-*.jrtc
-*.java
-*.class
-*.info
-*.properties
-*.jar
+/JavaRushTasks.iml
 
 /out/
 /JavaRushPlugin.properties
@@ -20,3 +13,4 @@ target/
 /out.log
 /out.log.1
 /out.log.*
+/lib/

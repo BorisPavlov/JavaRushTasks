@@ -1,4 +1,4 @@
-﻿#############
+#############
 ## Idea
 #############
 target/
@@ -14,13 +14,9 @@ target/
 *.properties
 *.jar
 
-# /1.JavaSyntax/
-# /2.JavaCore/
-# /3.JavaMultithreading/
-# /4.JavaCollections/
-# /5.OnlineInternship/
 /out/
 /JavaRushPlugin.properties
 /Instruction.png
 /out.log
+/out.log.1
 /out.log.*

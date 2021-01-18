@@ -1,13 +1,19 @@
-﻿#############
+#############
 ## Idea
 #############
 target/
 .idea/
 .idea
 .repository/
+<<<<<<< HEAD
+=======
+/JavaRushTasks.iml
+>>>>>>> 30cc5c13fa6342eb76226f82eaf05f30e9929820
 
 /out/
 /JavaRushPlugin.properties
 /Instruction.png
 /out.log
+/out.log.1
 /out.log.*
+/lib/

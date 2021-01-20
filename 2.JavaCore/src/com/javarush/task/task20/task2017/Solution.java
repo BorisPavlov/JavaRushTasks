@@ -9,10 +9,14 @@ import java.io.Serializable;
 
 public class Solution {
     public A getOriginalObject(ObjectInputStream objectStream) {
-        return null;
+        try {
+            A object = (A) objectStream.readObject();
+            return object;
+        }
+        catch (Exception e) { return null; }
     }
 
-    public class A {
+    public class A implements Serializable {
     }
 
     public class B extends A {
